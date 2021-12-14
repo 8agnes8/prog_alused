@@ -15,7 +15,6 @@ function promptUser () {
 
     console.log(result);
     }
-
     window.onload = function () {
     this.promptUser();
    }

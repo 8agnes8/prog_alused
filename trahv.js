@@ -1,5 +1,3 @@
-
-
 function promptUser() {
     let nimi = window.prompt("Sisestage nimi");
     let lubatudInput = window.prompt("lubatud kiirus");
@@ -30,4 +28,5 @@ function promptUser() {
 
     window.onload = function () {
     this.promptUser();
+
     }
